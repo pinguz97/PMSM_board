@@ -1470,7 +1470,7 @@
         )
       )
     )
-    (symbol "Mylibrary:SN65HVD253D" (in_bom yes) (on_board yes)
+    (symbol "MyLibrary_PMSM:SN65HVD253D" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -8.89 8.89 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
@@ -2066,7 +2066,6 @@
     )
   )
 
-
   (junction (at 97.155 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 02a08a24-751b-4ad4-b6b1-621603af88cc)
   )
@@ -2165,15 +2164,15 @@
   (no_connect (at 63.5 177.8) (uuid 8ffa0dc9-419a-469a-8b89-5941fabcc530))
   (no_connect (at 121.92 151.13) (uuid bd72c5fa-1dbb-45a7-a8cc-b54e08de1542))
   (no_connect (at 27.94 157.48) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 27.94 154.94) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 27.94 152.4) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 27.94 177.8) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 27.94 180.34) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 27.94 182.88) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 63.5 114.3) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 63.5 116.84) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 63.5 127) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
-  (no_connect (at 63.5 104.14) (uuid f0751676-b8fa-4ae0-a674-7093cbb61090))
+  (no_connect (at 27.94 154.94) (uuid f0751676-b8fa-4ae0-a674-7093cbb61091))
+  (no_connect (at 27.94 152.4) (uuid f0751676-b8fa-4ae0-a674-7093cbb61092))
+  (no_connect (at 27.94 177.8) (uuid f0751676-b8fa-4ae0-a674-7093cbb61093))
+  (no_connect (at 27.94 180.34) (uuid f0751676-b8fa-4ae0-a674-7093cbb61094))
+  (no_connect (at 27.94 182.88) (uuid f0751676-b8fa-4ae0-a674-7093cbb61095))
+  (no_connect (at 63.5 114.3) (uuid f0751676-b8fa-4ae0-a674-7093cbb61096))
+  (no_connect (at 63.5 116.84) (uuid f0751676-b8fa-4ae0-a674-7093cbb61097))
+  (no_connect (at 63.5 127) (uuid f0751676-b8fa-4ae0-a674-7093cbb61098))
+  (no_connect (at 63.5 104.14) (uuid f0751676-b8fa-4ae0-a674-7093cbb61099))
 
   (wire (pts (xy 162.56 125.73) (xy 162.56 129.54))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4667,10 +4666,10 @@
     (pin "2" (uuid afd4d850-fba6-46b2-8f5e-264856fd3c51))
   )
 
-  (symbol (lib_id "Mylibrary:SN65HVD253D") (at 149.86 90.17 0) (unit 1)
+  (symbol (lib_id "MyLibrary_PMSM:SN65HVD253D") (at 149.86 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8331f48a-2afc-42bc-8008-84b452f97299)
-    (property "Reference" "U2" (id 0) (at 151.8794 78.8502 0)
+    (uuid 80b39198-0427-4a2c-87f3-1492d50638db)
+    (property "Reference" "U?" (id 0) (at 151.8794 78.8502 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD253D" (id 1) (at 151.8794 81.3871 0)
@@ -4682,15 +4681,15 @@
     (property "Datasheet" "" (id 3) (at 118.11 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid daf96098-82b4-4e4a-9f62-629e9198472a))
-    (pin "2" (uuid 708ddafc-990d-44a9-9984-0842bddbedec))
-    (pin "3" (uuid a3dc495e-1aa8-4c84-a583-dd330e328892))
-    (pin "4" (uuid 23bfec3c-3684-49cb-b66d-3d8c950db3e2))
-    (pin "5" (uuid 1dddee6e-1807-4db0-8a09-a051e448ab2c))
-    (pin "5" (uuid 1dddee6e-1807-4db0-8a09-a051e448ab2c))
-    (pin "6" (uuid 75946258-02c6-4108-9e03-84d5e4f19762))
-    (pin "7" (uuid 33338e55-ca21-4510-89a6-f5e6b75d54a8))
-    (pin "8" (uuid 8d8032e0-de79-4d4c-9837-a73f78afc27d))
+    (pin "1" (uuid 2dd2ffb5-5b4b-42fa-9f13-6022b75a79d9))
+    (pin "2" (uuid 20db3541-eae3-4f8b-ba61-c69d0678d050))
+    (pin "3" (uuid c8081cfb-e270-4de1-89ba-721cf9e5f25e))
+    (pin "4" (uuid 9956d780-e5b2-43fb-a9c9-f31f1030f762))
+    (pin "5" (uuid da89eae8-cf86-4f95-a602-7239180c0caa))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbcc))
+    (pin "6" (uuid 5cced5a0-b598-419e-8ab1-fd6383106db4))
+    (pin "7" (uuid 28fcc385-bda1-4e7a-ba2e-c1874b5a9c53))
+    (pin "8" (uuid 7b090bea-b520-4d73-a60e-7c4f22b6d806))
   )
 
   (symbol (lib_id "power:+3.3VA") (at 175.26 124.46 0) (unit 1)
@@ -5472,26 +5471,26 @@
     (path "/00000000-0000-0000-0000-0000622381af"
       (reference "U1") (unit 1) (value "STM32F303RETx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
     )
-    (path "/8331f48a-2afc-42bc-8008-84b452f97299"
-      (reference "U2") (unit 1) (value "SN65HVD253D") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
     (path "/00000000-0000-0000-0000-000061e1e007"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
     )
-    (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061f8f6c5"
-      (reference "U4") (unit 1) (value "TMC6140") (footprint "")
+    (path "/00000000-0000-0000-0000-000061cd02c2/3359e259-3a3c-4aa4-8732-3dbaa9867503"
+      (reference "U?") (unit 1) (value "TSC2011") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061cd02c2/a6ec7d6b-e580-4409-8382-f30dedf5c393"
-      (reference "U5") (unit 1) (value "TSC2011") (footprint "")
+    (path "/00000000-0000-0000-0000-000061cd02c2/612a78e7-cc68-4577-b241-2d6ade45da87"
+      (reference "U?") (unit 1) (value "TMC6140") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061cd02c2/a291bac3-b45e-4638-a199-dbcaf18b2f09"
-      (reference "U6") (unit 1) (value "TSC2011") (footprint "")
+    (path "/1dc60600-5235-4456-91bf-a196642211fa/7902e9cd-4be0-4e1c-b27c-519fb539f14c"
+      (reference "U?") (unit 1) (value "TLV707") (footprint "")
     )
-    (path "/1dc60600-5235-4456-91bf-a196642211fa/88a5c5b9-979a-4750-8fbf-0849978dd288"
-      (reference "U7") (unit 1) (value "MYRGC07506") (footprint "")
+    (path "/00000000-0000-0000-0000-000061cd02c2/7c94c38e-623f-41eb-bdd6-5171cfc8b42f"
+      (reference "U?") (unit 1) (value "TSC2011") (footprint "")
     )
-    (path "/1dc60600-5235-4456-91bf-a196642211fa/6308fd98-fb59-4a41-97f1-92d9ad46298d"
-      (reference "U8") (unit 1) (value "TLV707") (footprint "")
+    (path "/80b39198-0427-4a2c-87f3-1492d50638db"
+      (reference "U?") (unit 1) (value "SN65HVD253D") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/1dc60600-5235-4456-91bf-a196642211fa/f139b3a3-5b4a-4b3f-8883-678a3f953d6f"
+      (reference "U?") (unit 1) (value "MYRGC07506_1") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061caf110"
       (reference "Y1") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
