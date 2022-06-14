@@ -4604,7 +4604,7 @@
     (property "Value" "BSC022N04LSATMA1" (id 1) (at 258.7752 109.093 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MyLibrary:TDSON-8-6" (id 2) (at 259.08 105.41 0)
+    (property "Footprint" "MyLibrary:TDSON-8-6_copy" (id 2) (at 259.08 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 254 107.95 0)
@@ -4685,8 +4685,8 @@
     (pin "2" (uuid 20db3541-eae3-4f8b-ba61-c69d0678d050))
     (pin "3" (uuid c8081cfb-e270-4de1-89ba-721cf9e5f25e))
     (pin "4" (uuid 9956d780-e5b2-43fb-a9c9-f31f1030f762))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbce))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbce))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbcf))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbcf))
     (pin "6" (uuid 5cced5a0-b598-419e-8ab1-fd6383106db4))
     (pin "7" (uuid 28fcc385-bda1-4e7a-ba2e-c1874b5a9c53))
     (pin "8" (uuid 7b090bea-b520-4d73-a60e-7c4f22b6d806))
@@ -5361,31 +5361,31 @@
       (reference "NTC1") (unit 1) (value "10k") (footprint "Resistors_SMD:R_0603")
     )
     (path "/68e088c0-f509-4963-a8c2-5f250da94fd0"
-      (reference "Q1") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q1") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d22286"
-      (reference "Q2") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q2") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d29f39"
-      (reference "Q3") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q3") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d31002"
-      (reference "Q4") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q4") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d31008"
-      (reference "Q5") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q5") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d36beb"
-      (reference "Q6") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q6") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/00000000-0000-0000-0000-000061d36bf1"
-      (reference "Q7") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6")
+      (reference "Q7") (unit 1) (value "BSC022N04LSATMA1") (footprint "MyLibrary:TDSON-8-6_copy")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/77da2cca-802e-41d0-b76d-7e6565304ae6"
       (reference "Q8") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000061cd02c2/9ed30845-4c8a-41f9-bb5e-fbf0150b5925"
-      (reference "Q?") (unit 1) (value "BSC040N10NS5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
+      (reference "Q9") (unit 1) (value "BSC040N10NS5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
     (path "/00000000-0000-0000-0000-000061cf6f81"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
