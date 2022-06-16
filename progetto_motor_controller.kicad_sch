@@ -4685,8 +4685,8 @@
     (pin "2" (uuid 20db3541-eae3-4f8b-ba61-c69d0678d050))
     (pin "3" (uuid c8081cfb-e270-4de1-89ba-721cf9e5f25e))
     (pin "4" (uuid 9956d780-e5b2-43fb-a9c9-f31f1030f762))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbd0))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbd0))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbd1))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbd1))
     (pin "6" (uuid 5cced5a0-b598-419e-8ab1-fd6383106db4))
     (pin "7" (uuid 28fcc385-bda1-4e7a-ba2e-c1874b5a9c53))
     (pin "8" (uuid 7b090bea-b520-4d73-a60e-7c4f22b6d806))
@@ -5274,16 +5274,16 @@
       (reference "C25") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/b4e7f52d-1519-4085-9eb2-e529ca766aa0"
-      (reference "C26") (unit 1) (value "680u") (footprint "Capacitor_SMD:CP_Elec_10x12.6")
+      (reference "C26") (unit 1) (value "680u") (footprint "MyLibrary:Electrolytic_Cap_12.5x13.5")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/37e5891e-231b-4aca-afe4-7d766f8c288b"
-      (reference "C27") (unit 1) (value "680u") (footprint "Capacitor_SMD:CP_Elec_10x12.6")
+      (reference "C27") (unit 1) (value "680u") (footprint "MyLibrary:Electrolytic_Cap_12.5x13.5")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/7ad6c805-0192-4aca-ab7a-83ffb190bd60"
-      (reference "C28") (unit 1) (value "680u") (footprint "Capacitor_SMD:CP_Elec_10x12.6")
+      (reference "C28") (unit 1) (value "680u") (footprint "MyLibrary:Electrolytic_Cap_12.5x13.5")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/3e830a86-caf0-42e1-a319-8f0818b3b999"
-      (reference "C29") (unit 1) (value "680u") (footprint "Capacitor_SMD:CP_Elec_10x12.6")
+      (reference "C29") (unit 1) (value "680u") (footprint "MyLibrary:Electrolytic_Cap_12.5x13.5")
     )
     (path "/1dc60600-5235-4456-91bf-a196642211fa/0023638a-ef43-4514-b814-c9ddf001bcc0"
       (reference "C30") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
