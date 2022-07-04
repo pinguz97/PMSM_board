@@ -4935,8 +4935,8 @@
     (pin "2" (uuid 20db3541-eae3-4f8b-ba61-c69d0678d050))
     (pin "3" (uuid c8081cfb-e270-4de1-89ba-721cf9e5f25e))
     (pin "4" (uuid 9956d780-e5b2-43fb-a9c9-f31f1030f762))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbde))
-    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbde))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbdf))
+    (pin "5" (uuid 3b3bba7a-7b42-4f53-95ae-4057c5d4dbdf))
     (pin "6" (uuid 5cced5a0-b598-419e-8ab1-fd6383106db4))
     (pin "7" (uuid 28fcc385-bda1-4e7a-ba2e-c1874b5a9c53))
     (pin "8" (uuid 7b090bea-b520-4d73-a60e-7c4f22b6d806))
@@ -5804,6 +5804,9 @@
     (path "/cff15a6b-3072-4001-adf2-5e0270fc2d40"
       (reference "R5") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000061cd02c2/e1011013-62a3-47d2-9a4f-ee5ec3ce63cf"
+      (reference "R6") (unit 1) (value "3k9") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/061bad8b-4d04-484c-8c94-4dc2f35e21c8"
       (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -5887,6 +5890,12 @@
     )
     (path "/09b1566a-db6a-4d4a-9bb6-054e1256cf29"
       (reference "R34") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061cd02c2/8d502617-6466-460e-b2a8-3b6b91dc8a06"
+      (reference "R35") (unit 1) (value "3k9") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061cd02c2/af104e9c-d2c9-4376-8a11-61801da944fb"
+      (reference "R36") (unit 1) (value "3k9") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000622381af"
       (reference "U1") (unit 1) (value "STM32F303RETx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
